@@ -1,0 +1,7 @@
+@CorretorAPI_HostAddress = http://localhost:5073
+
+GET {{CorretorAPI_HostAddress}}/swagger/
+Accept: application/json
+
+###
+

@@ -1,0 +1,75 @@
+[
+  {
+    "ContainingType": "CorretorAPI.API.Controllers.ContratacaoController",
+    "Method": "Get",
+    "RelativePath": "Contratacao/contratacao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CorretorAPI.Application.DTOs.ContratacaoDto, CorretorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CorretorAPI.API.Controllers.ContratacaoController",
+    "Method": "Contratar",
+    "RelativePath": "Contratacao/contratar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contratacaoDto",
+        "Type": "CorretorAPI.Application.DTOs.ContratacaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CorretorAPI.Application.DTOs.ContratacaoDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "CorretorAPI.API.Controllers.ContratacaoController\u002BErrorResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CorretorAPI.API.Controllers.ContratacaoController\u002BErrorResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "CorretorAPI.API.Controllers.ContratacaoController\u002BErrorResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  }
+]

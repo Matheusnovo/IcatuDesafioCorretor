@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "PGO4WcuUBIboZucKJYkiKO7I1tcOTuWxeXkMjY6ohXs=",
+  "Source": "CorretorAPI",
+  "BasePath": "_content/CorretorAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
